@@ -1,0 +1,100 @@
+/* EJERCICIO 1
+
+img{
+    width: 200px;
+    height: 200px;
+}
+
+.contenedor{
+    width: 800px;
+    display: flex;
+    border: solid black 2px;
+    padding: 10px;
+}
+
+.imagen-contenedor{
+    border: solid black 2px;
+    margin-right: 5px;
+}
+
+.imagen-contenedor img{
+    height: 220px;
+}
+
+.cuerpo{
+    border: solid black 2px;
+    margin-left: 5px;
+    padding-left: 20px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.anio{
+    margin-top: 60px;
+}
+} */
+
+
+
+
+
+.contenedor{
+    width: 800px;
+    border: solid black 2px;
+    padding: 10px;
+}
+
+.cuerpo{
+    border: solid black 2px;
+    height: 500px;
+    margin-bottom: 5px;
+    display: flex;
+    padding: 10px;
+}
+
+footer{
+    border: solid black 2px;
+    text-align: center;
+    background-color: rgb(221, 218, 218);
+    /* height: 30px; */
+}
+
+.menu{
+    border: solid black 2px;
+    justify-content: center;
+    margin-right: 10px;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+
+.cuerpo-contenedor{
+    border: solid black 2px;
+    background-color: rgb(221, 218, 218);
+    /* width: 60%; */
+    display: flex;
+    flex-grow: 5;
+    padding: 10px;
+}
+
+main{
+    border: solid black 2px;
+    justify-content: center;
+    margin-right: 10px;
+    flex-grow: 2;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+aside{
+    border: solid black 2px;
+    justify-content: center;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
